@@ -1,18 +1,433 @@
+@media (max-width: 1720px) {
+    /* .footer-inner {
+        width: 19%;
+    } */
+    .footer-title {
+        font-size: 1.5rem;
+    }
+    .footer-flex-area {
+        gap: 10px;
+    }
+    /* .footer-link {
+        font-size: 1.4rem;
+    } */
+}
+
 @media (max-width: 1600px) {
-    
+    html {
+        font-size: 9px;
+    }
+    .header-title {
+        font-size: 7rem;
+    }
+    .product-area {
+        width: 19.4%;
+     }
+     .social-icon-sec .header-title {
+        font-size: 6rem;
+    }
+    .pro-tag {
+        height: 18px;
+    }
+    img.img-fluid.pro-card-img {
+        height: 240px;
+    }
 }
+
 @media (max-width: 1399px) {
-    
+    html {
+        font-size: 8px;
+    }
+    img.img-fluid.pro-card-img {
+        height: 220px;
+    }
+    .who-bkpp-para {
+        line-height: 30px;
+        height: 160px;
+    }
+    .event-card .who-bkpp-para {
+        height: 115px;
+    }
+    .footer-flex-area {
+        padding: 0 3rem;
+    }
+    .card-pro-area {
+        margin-top: 30px;
+    }
+    .logo {
+        max-width: 115px;
+    }
+    .bnner-slider-layer {
+        min-height: 700px;
+        height: 700px;
+    }
+    .social-icon-sec .header-title {
+        font-size: 5.8rem;
+    }
+    .footer-flex-area {
+        margin-bottom: 50px;
+    }
+    .who-bkpp-box {
+        padding: 3rem 0.5rem;
+    }
+    .pro-tag {
+        height: 16px;
+    }
+    .pro-flex-area {
+        gap: 35px 6px;
+    }
+    .pro-img {
+        height: 180px;
+        object-fit: cover;
+    }
 }
+
 @media (max-width: 1199px) {
-    
+    html {
+        font-size: 7px;
+    }
+    .who-bkpp-title {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img.img-fluid.who-bkpp-img {
+        max-width: 40px;
+    }
+    .who-bkpp-img-area {
+        height: 75px;
+        width: 75px;
+    }
+    .event-card-img {
+        height: 150px;
+        width: 100%;
+    }
+    .event-card {
+        padding: 10px;
+    }
+    .event-card .who-bkpp-title {
+        font-size: 1.8rem;
+    }
+    .event-card .who-bkpp-para {
+        height: 105px;
+    }
+    .logo {
+        max-width: 105px;
+    }
+    .who-bkpp-title {
+        margin-bottom: 10px;
+    }
+    .top-icon-list {
+        gap: 15px;
+    }
+    .top-icons {
+        height: 35px;
+        width: 35px;
+        font-size: 2rem;
+    }
+    .who-bkpp-para {
+        line-height: 28px;
+        height: 140px;
+    }
+    .footer-flex-area {
+        padding: 0 1rem;
+    }
+    .social-icon {
+        height: 35px;
+        width: 35px;
+        font-size: 2rem;
+    }
+    .bnner-slider-btn.next {
+        right: 60px;
+    }
+    .bnner-slider-btn.pre {
+        left: 60px;
+    }
+    .bnner-slider-btn {
+        height: 50px;
+        width: 50px;
+    }
+    .social-icon-sec .header-title {
+        font-size: 5.4rem;
+    }
+    .pro-img {
+        height: 140px;
+    }
+    .pro-tag {
+        height: 15px;
+        top: 20px;
+        left: -39px;
+        width: 130px;
+    }
+    .pro-filter-list {
+        margin-top: 30px;
+    }
+    .header-para {
+        padding-top: 10px;
+        margin-top: 10px;
+        font-size: 2.5rem;
+    }
+    .pro-flex-area {
+        gap: 25px 5px;
+    }
+    .header-title {
+        font-size: 6.5rem;
+    }
+    .header-title {
+        font-size: 6.5rem;
+    }
+    .bnner-title {
+        font-size: 5.4rem;
+    }
+    .bnner-slider-layer {
+        min-height: 600px;
+        height: 600px;
+    }
 }
+
 @media (max-width: 991px) {
-    
+    .event-card {
+        clip-path: polygon(
+        23% 0,
+        100% 0,
+        100% 85%,
+        76% 100%,
+        25% 100%,
+        0 100%,
+        0 16%
+      );
+    }
+    .copyright-para {
+        text-align: center !important;
+    }
+    img.img-fluid.pro-card-img {
+        height: 200px;
+    }
+    .bnner-slider-layer {
+        min-height: 500px;
+        height: 500px;
+    }
+    .event-card-img {
+        height: 180px;
+    }
+    .who-bkpp-para {
+        height: 90px;
+        -webkit-line-clamp: 3;
+    }
+    .who-bkpp-box {
+        padding: 3rem 1rem;
+    }
+    .logo {
+        max-width: 95px;
+    }
+    .header-top {
+        padding: 1rem 0;
+    }
+    .pro-card-box {
+        margin-bottom: 20px;
+    }
+    .header-title {
+        font-size: 5.3rem;
+    }
+    .event-card {
+        margin-bottom: 30px;
+    }
+    .header-para {
+        font-size: 2.2rem;
+    }
+    .social-icon-sec .logo {
+        max-width: 90px;
+    }
+    .social-icon-sec .header-title {
+        font-size: 4.7rem;
+    }
+    .footer-inner {
+        width: 33%;
+    }
+    .footer-flex-area {
+        padding: 0 5rem;
+        justify-content: start;
+        gap: 20px 0;
+    }
+    nav.navigation {
+        position: fixed;
+        height: 100vh;
+        z-index: 999;
+        background-color: black;
+        top: 0;
+        left: -110%;
+        width: 50%;
+        transition: 0.5s all ease-in-out;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .navigation.active {
+        left: 0;
+    }
+    .pro-siderbar-area {
+        position: absolute;
+        top: 10px;
+        left: -110%;
+        background-color: #1B1B1B;
+        padding: 20px 20px;
+        z-index: 999;
+        border-radius: 5px;
+        max-width: 350px;
+        transition: 0.5s all ease-in-out;
+    }
+    .filter-pro-section {
+        padding: 10rem 0 8rem;
+    }
+    .pro-siderbar-area.active {
+        left: 10px;
+    }
+    ul.navigation-list {
+        display: block;
+    }
+    .link {
+        font-size: 2rem;
+        font-weight: 600;
+        display: inline-block;
+    }
 }
+
 @media (max-width: 767px) {
+    nav.navigation {
+        width: 100%;
+    }
+    .event-card {
+        clip-path: polygon(
+        22% 0,
+        100% 0,
+        100% 85%,
+        76% 100%,
+        25% 100%,
+        0 100%,
+        0 16%
+      );
+    }
+    .top-icon-list {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .event-card .who-bkpp-para {
+        height: 90px;
+    }
+    .bnner-slider-btn {
+        display: none !important;
+    }
+    .header-para {
+        font-size: 1.8rem;
+    }
+    .logo {
+        max-width: 80px;
+    }
+    .header-title {
+        font-size: 3.8rem;
+    }
+    .bnner-para {
+        font-size: 2rem;
+    }
+    .bnner-title {
+        font-size: 4.6rem;
+    }
+    .bnner-slider-layer::before {
+        opacity: 0.5;
+    }
+    .bnner-slider-layer {
+        min-height: 420px;
+        height: 420px;
+    }
+    .product-area {
+        width: 32.7%;
+    }
+    .footer-inner {
+        width: 100%;
+        text-align: center;
+    }
+    .social-icon-sec .logo {
+        max-width: 70px;
+    }
+    .social-icon-sec .header-title {
+        font-size: 3.3rem;
+    }
+    .footer-link {
+        font-size: 1.8rem;
+    }
+    .footer-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .product-area {
+        width: 49%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-flex-area {
+        padding: 0;
+    }
+    .top-para {
+        font-size: 1.4rem;
+    }
+    .header-title {
+        font-size: 4.7vw;
+    }
+    .bnner-sb-title {
+        font-size: 2.8rem;
+    }
+    .bnner-title {
+        font-size: 3rem;
+    }
+    .logo {
+        max-width: 70px;
+    }
+    .header-para {
+        font-size: 1.6rem;
+        float: unset;
+        width: auto;
+        text-align: end;
+    }
+    .bnner-para {
+        font-size: 1.6rem;
+    }
+    .bnner-slider-layer {
+        min-height: 350px;
+        height: 350px;
+    }
+    .sec-title {
+        font-size: 3.5rem;
+    }
+    .section-title-2 {
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+    .social-icon-sec .logo {
+        max-width: 100%;
+        width: 70px;
+    }
+    
+    .social-icon-sec .header-title {
+        font-size: 4.5vw;
+    }
+    .copyright-para {
+        font-size: 1.32rem;
+        font-family: var(--poppins-fonts);
+        font-weight: 500;
+        color: white;
+    }
     
 }
-@media (max-width: 480px) {
-    
+
+@media (max-width:414px) {
+    .header-para {
+        font-size: 1.4rem;
+    }
+
 }
